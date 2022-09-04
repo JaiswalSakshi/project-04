@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+nav img{
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.list-item{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #9c9191;
+}
+.list-item:hover{
+    cursor: pointer;
+    color: black;
+}
+.nav-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 400px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: hwb(271 3% 22%);
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+.heading-text{
+    font-size: 50px;
+    width: 30%;
+    margin-top: 100px;
+    color: #37344c;
+    margin-left: 70px;
+    font-family: Poppins;
+    line-height: 55px;
+}
+span{
+    color:darkslateblue
+}
+.description{
+    font-size: 11px;
+    width: 20%;
+    color: #b7b0e1;
+    margin-left: 70px;
+    font-family: Poppins;
+}
+.btn{
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #6a08c7;
+    font-family: Poppins;
+}
+button:hover{
+    cursor: pointer;
+}
+.banner-container{
+    margin-left: 100px;
+}
+.banner-container img{
+    margin-top: -400px;
+    margin-left: 600px;
+    height: 500px;
+}
